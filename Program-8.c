@@ -5,9 +5,15 @@
 	
 	#include<stdio.h>
 	//Write the function for calculating square of a given number
-	int main()
+	int square(int a)
 	{
-	    int num;
+	    int c;
+      c=a*a;
+      return c;
+  }
+  int main()
+  {
+      int num;
 	    int n;
 	    printf("Input any number for square:");
 	    scanf("%d",&num);
